@@ -1,0 +1,19 @@
+#footer {
+    grid-area: ft;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-social {
+    flex-basis: auto;
+    padding: 5px;
+}
+.copyright {
+    flex-basis: auto;
+    font-size: 1em;
+    flex-basis: auto;
+}

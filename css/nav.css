@@ -1,0 +1,22 @@
+#nav {
+    padding: 3vw;
+    font-size: 1.5em;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-self: center;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4C5B5C;
+    padding: 1vw;
+}
+
+.nav-link:hover {
+    color: #4C5B5C;
+    box-shadow: 0 10px 20px #E3170A;
+    border-radius: 5px;
+}

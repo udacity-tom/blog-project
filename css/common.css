@@ -1,0 +1,19 @@
+.logo-image {
+    width: 4em;
+    height: auto;
+    padding: 3vw;
+}
+
+body {
+    font-size: 15px;
+    background-color: #839cc3;
+    color: #4C5B5C;
+    font-family: 'Abril Fatface';
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Abril Fatface';
+    font-family: 'Open Sans', sans-serif;
+
+}

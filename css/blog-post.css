@@ -1,0 +1,102 @@
+/* @import "reset.css"; */
+@import "../css/fonts.css";
+@import "../css/footer.css";
+@import "../css/nav.css";
+@import "../css/common.css";
+@import "../css/social-media.css";
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto auto auto 70px;
+    grid-template-areas: 
+    "hd"
+    "image"
+    "article"
+    "author"
+    "ft"
+}
+
+.header {
+    grid-area: hd;
+    justify-content: space-between;
+    align-content: center;
+    display: grid; 
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
+}
+
+.header-image {
+    width: 100%;
+    justify-self: center;
+}
+
+.blog-image {
+    grid-area: image;
+    justify-self: center;
+    max-width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px #a8a8a8;
+}
+
+.article-content {
+    grid-area: article;
+    justify-self: center;
+    font-family: 'Abril Fatface';
+    font-family: 'Open Sans', sans-serif;
+}
+
+.blog-article {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.article-title {
+    font-size: 3em;
+}
+
+.back-btn {
+    margin: 0 auto;
+    width: 90px;
+    height: 40px;
+    border: 0;
+    margin: 5px;
+    background-color: #E16036;
+    border-radius: 10px;
+    color: white;
+}
+
+.back-btn:hover {
+color: #E16036;
+background-color: white;
+box-shadow: 0 10px 20px #a8a8a8;
+}
+
+.author-info {
+    grid-area: author;
+    font-family: 'Abril Fatface';
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+}
+
+.author {
+    /* text-align: center; */
+    /* grid-area: author; */
+}
+
+.author-bio {
+    text-align: center;
+}
+
+.avatar {
+    margin: 0 auto;
+    width: 80%;
+    margin: 1em;
+    display: inline-block;
+    max-width: 16%;
+    border-radius: 90px;
+}
