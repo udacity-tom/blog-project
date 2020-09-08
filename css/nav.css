@@ -11,12 +11,15 @@
 
 .nav-link {
     text-decoration: none;
-    color: #4C5B5C;
+    color:  #bdd1d1;;
     padding: 1vw;
 }
 
 .nav-link:hover {
-    color: #4C5B5C;
+    color: #E16036;
+    background-color: #ffffff;
+
+    /* color: #4C5B5C; */
     box-shadow: 0 10px 20px #E3170A;
     border-radius: 5px;
 }
