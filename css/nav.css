@@ -18,8 +18,6 @@
 .nav-link:hover {
     color: #E16036;
     background-color: #ffffff;
-
-    /* color: #4C5B5C; */
     box-shadow: 0 10px 20px #E3170A;
     border-radius: 5px;
 }
