@@ -45,6 +45,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+figcaption {
+    font-size: 1em;
+    font-family: 'Abril Fatface';
+    font-family: 'Open Sans', sans-serif;
+    color: #e3ffff;
+    margin-left: 10px;
+}
+
 .blog-article {
     margin: 0 auto;
     width: 80%;
@@ -66,9 +74,14 @@
 }
 
 .back-btn:hover {
-color: #e16036;
-background-color: #ffffff;
-box-shadow: 0 10px 20px #a8a8a8;
+    color: #e16036;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px #a8a8a8;
+}
+
+.author{
+    margin: 0;
+    font-size: 1.7em;
 }
 
 .author-info {
@@ -80,6 +93,23 @@ box-shadow: 0 10px 20px #a8a8a8;
     text-align: center;
     height: 100%;
     width: 60%;
+}
+
+.author-title {
+    /* font-style: italic; */
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin: 0;
+}
+
+.website-title-font {
+    font-family: hackedregular;
+}
+
+.date {
+    font-size: 0.9em;
+    line-height: 1em;
+    margin: 0;
 }
 
 .author-bio {

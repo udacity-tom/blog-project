@@ -1,6 +1,7 @@
 #footer {
     grid-area: ft;
 }
+
 #footer {
     display: flex;
     flex-direction: row;
@@ -12,6 +13,7 @@
     flex-basis: auto;
     padding: 5px;
 }
+
 .copyright {
     flex-basis: auto;
     font-size: 1em;
