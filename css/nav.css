@@ -11,13 +11,13 @@
 
 .nav-link {
     text-decoration: none;
-    color:  #bdd1d1;;
+    color:  #e3ffff;;
     padding: 1vw;
 }
 
 .nav-link:hover {
-    color: #E16036;
+    color: #e16036;
     background-color: #ffffff;
-    box-shadow: 0 10px 20px #E3170A;
+    box-shadow: 0 10px 20px #e3170a;
     border-radius: 5px;
 }
